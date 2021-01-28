@@ -1,34 +1,34 @@
-let nodemailer = require('nodemailer');
+// let nodemailer = require('nodemailer');
 
-const signUpForm = document.getElementById("contactForm");
-const name = document.getElementById("nameInput").value;
-const email = document.getElementById("emailInput").value;
-const message = document.getElementById("messageInput").value;
+// const signUpForm = document.getElementById("contactForm");
+// const name = document.getElementById("nameInput").value;
+// const email = document.getElementById("emailInput").value;
+// const message = document.getElementById("messageInput").value;
 
-signUpForm.addEventListener("submit", (e) => {
-	let transporter = nodemailer.createTransport({
-		service: 'gmail',
-		auth: {
-			user: process.env.GMAIL_APP_EMAIL,
-			pass: process.env.GMAIL_APP_PASSWORD
-		}
-	});
+// signUpForm.addEventListener("submit", (e) => {
+// 	let transporter = nodemailer.createTransport({
+// 		service: 'gmail',
+// 		auth: {
+// 			user: process.env.GMAIL_APP_EMAIL,
+// 			pass: process.env.GMAIL_APP_PASSWORD
+// 		}
+// 	});
 
-	let mailOptions = {
-		from: email,
-		to: process.env.GMAIL_APP_EMAIL,
-		subject: `${name} wants to contact you!`,
-		text: message
-	};
+// 	let mailOptions = {
+// 		from: email,
+// 		to: process.env.GMAIL_APP_EMAIL,
+// 		subject: `${name} wants to contact you!`,
+// 		text: message
+// 	};
 
-	transporter.sendMail(mailOptions, function (error, info) {
-		if (error) {
-			console.log(error);
-		} else {
-			console.log('Email sent: ' + info.response);
-		}
-	});
-});
+// 	transporter.sendMail(mailOptions, function (error, info) {
+// 		if (error) {
+// 			console.log(error);
+// 		} else {
+// 			console.log('Email sent: ' + info.response);
+// 		}
+// 	});
+// });
 
 /*
 	Overflow by HTML5 UP
