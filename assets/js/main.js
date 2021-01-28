@@ -7,6 +7,7 @@ const message = document.getElementById("messageInput").value;
 let button = document.getElementById("submitButton").value;
 
 signUpForm.addEventListener("submit", (e) => {
+	e.preventDefault();
 	let transporter = nodemailer.createTransport({
 		service: 'gmail',
 		auth: {
