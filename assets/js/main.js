@@ -4,6 +4,7 @@ const signUpForm = document.getElementById("contactForm");
 const name = document.getElementById("nameInput").value;
 const email = document.getElementById("emailInput").value;
 const message = document.getElementById("messageInput").value;
+let button = document.getElementById("submitButton").value;
 
 signUpForm.addEventListener("submit", (e) => {
 	let transporter = nodemailer.createTransport({
@@ -26,6 +27,7 @@ signUpForm.addEventListener("submit", (e) => {
 			console.log(error);
 		} else {
 			console.log('Email sent: ' + info.response);
+			button = "Message Sent!";
 		}
 	});
 });
