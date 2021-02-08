@@ -15,6 +15,8 @@ signUpForm.addEventListener("submit", (e) => {
 			pass: process.env.GMAIL_APP_PASSWORD
 		}
 	});
+	console.log("inside of event");
+	debugger;
 
 	let mailOptions = {
 		from: email,
@@ -24,6 +26,8 @@ signUpForm.addEventListener("submit", (e) => {
 	};
 
 	transporter.sendMail(mailOptions, function (error, info) {
+		console.log("inside of send mail function");
+		debugger;
 		if (error) {
 			console.log(error);
 		} else {
