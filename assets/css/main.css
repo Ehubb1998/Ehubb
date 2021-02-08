@@ -59,6 +59,9 @@ body {
 	display: flex;
 	justify-content: center;
 }
+.pContaienr {
+	width: 70%;
+}
 
 mark {
 	background-color: transparent;
