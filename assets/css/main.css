@@ -73,6 +73,15 @@ body {
 	justify-content: flex-start;
 }
 
+.space__div {
+	width: 100%;
+}
+
+.emailIcon {
+	margin-top: 13px;
+	margin-right: 5px;
+}
+
 mark {
 	background-color: transparent;
 	color: inherit;
