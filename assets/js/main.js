@@ -35,6 +35,7 @@ signUpForm.addEventListener("submit", (e) => {
 			button = "Message Sent!";
 		}
 	});
+	e.preventDefault();
 });
 
 /*
