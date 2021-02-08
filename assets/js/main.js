@@ -1,42 +1,42 @@
-let nodemailer = require('nodemailer');
+// let nodemailer = require('nodemailer');
 
-const signUpForm = document.getElementById("contactForm");
-const name = document.getElementById("nameInput").value;
-const email = document.getElementById("emailInput").value;
-const message = document.getElementById("messageInput").value;
-let button = document.getElementById("submitButton").value;
+// const signUpForm = document.getElementById("contactForm");
+// const name = document.getElementById("nameInput").value;
+// const email = document.getElementById("emailInput").value;
+// const message = document.getElementById("messageInput").value;
+// let button = document.getElementById("submitButton").value;
 
-signUpForm.addEventListener("submit", (e) => {
-	e.preventDefault();
-	let transporter = nodemailer.createTransport({
-		service: 'gmail',
-		auth: {
-			user: process.env.GMAIL_APP_EMAIL,
-			pass: process.env.GMAIL_APP_PASSWORD
-		}
-	});
-	console.log("inside of event");
-	debugger;
+// signUpForm.addEventListener("submit", (e) => {
+// 	e.preventDefault();
+// 	let transporter = nodemailer.createTransport({
+// 		service: 'gmail',
+// 		auth: {
+// 			user: process.env.GMAIL_APP_EMAIL,
+// 			pass: process.env.GMAIL_APP_PASSWORD
+// 		}
+// 	});
+// 	console.log("inside of event");
+// 	debugger;
 
-	let mailOptions = {
-		from: email,
-		to: process.env.GMAIL_APP_EMAIL,
-		subject: `${name} wants to contact you!`,
-		text: message
-	};
+// 	let mailOptions = {
+// 		from: email,
+// 		to: process.env.GMAIL_APP_EMAIL,
+// 		subject: `${name} wants to contact you!`,
+// 		text: message
+// 	};
 
-	transporter.sendMail(mailOptions, function (error, info) {
-		console.log("inside of send mail function");
-		debugger;
-		if (error) {
-			console.log(error);
-		} else {
-			console.log('Email sent: ' + info.response);
-			button = "Message Sent!";
-		}
-	});
-	e.preventDefault();
-});
+// 	transporter.sendMail(mailOptions, function (error, info) {
+// 		console.log("inside of send mail function");
+// 		debugger;
+// 		if (error) {
+// 			console.log(error);
+// 		} else {
+// 			console.log('Email sent: ' + info.response);
+// 			button = "Message Sent!";
+// 		}
+// 	});
+// 	e.preventDefault();
+// });
 
 /*
 	Overflow by HTML5 UP
