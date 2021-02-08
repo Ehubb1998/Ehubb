@@ -68,6 +68,11 @@ body {
 	justify-content: center;
 }
 
+.email__div {
+	display: flex;
+	justify-content: flex-start;
+}
+
 mark {
 	background-color: transparent;
 	color: inherit;
