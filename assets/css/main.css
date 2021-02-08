@@ -55,6 +55,11 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+.bio__divContainer {
+	display: flex;
+	justify-content: center;
+}
+
 mark {
 	background-color: transparent;
 	color: inherit;
