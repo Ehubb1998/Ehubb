@@ -63,10 +63,10 @@ body {
 	width: 70%;
 }
 
-/* .contactEmail__div {
+.contactEmail__div {
 	display: flex;
-	just
-} */
+	justify-content: center;
+}
 
 mark {
 	background-color: transparent;
