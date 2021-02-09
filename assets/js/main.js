@@ -1,11 +1,31 @@
 const aDiv = document.getElementById("a-project1");
+const aDiv2 = document.getElementById("a-project2");
+const aDiv3 = document.getElementById("a-project3");
 
 aDiv.addEventListener("mouseenter", () => {
-	const backDrop = document.querySelector(".backDrop");
+	const backDrop = document.getElementById("backDrop1")
 	backDrop.style.display = "flex"
 });
 aDiv.addEventListener("mouseleave", () => {
-	const backDrop = document.querySelector(".backDrop");
+	const backDrop = document.getElementById("backDrop1")
+	backDrop.style.display = "none"
+});
+
+aDiv2.addEventListener("mouseenter", () => {
+	const backDrop = document.getElementById("backDrop2")
+	backDrop.style.display = "flex"
+});
+aDiv2.addEventListener("mouseleave", () => {
+	const backDrop = document.getElementById("backDrop2")
+	backDrop.style.display = "none"
+});
+
+aDiv3.addEventListener("mouseenter", () => {
+	const backDrop = document.getElementById("backDrop3")
+	backDrop.style.display = "flex"
+});
+aDiv3.addEventListener("mouseleave", () => {
+	const backDrop = document.getElementById("backDrop3")
 	backDrop.style.display = "none"
 });
 
