@@ -149,8 +149,11 @@ body {
 	border: 2px solid white;
 	padding: 0.4em;
 	width: fit-content;
+	height: fit-content;
+	margin-top: 37%;
 	cursor: pointer;
 }
+y
 
 .projectContainer {
 	border-radius: 5%;
