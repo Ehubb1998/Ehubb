@@ -13,15 +13,11 @@ aDiv.addEventListener("mouseleave", () => {
 
 aDiv2.addEventListener("mouseenter", () => {
 	const backDrop = document.getElementById("backDrop2")
-	const text = document.querySelector(".backDrop__text");
 	backDrop.style.display = "flex";
-	text.style.marginTop = "31%";
 });
 aDiv2.addEventListener("mouseleave", () => {
 	const backDrop = document.getElementById("backDrop2")
-	const text = document.querySelector(".backDrop__text");
 	backDrop.style.display = "none";
-	text.style.marginTop = "37%";
 });
 
 aDiv3.addEventListener("mouseenter", () => {
