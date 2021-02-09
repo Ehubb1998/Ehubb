@@ -133,7 +133,7 @@ body {
 }
 
 .backDrop {
-	display: hidden;
+	visibility: hidden;
 	height: 100%;
 	width: 100%;
 }
@@ -149,7 +149,8 @@ body {
 	color: white;
 	font-weight: 500;
 	border: 2px solid white;
-	padding: 1em;
+	padding: 0.4em;
+	width: fit-content;
 }
 
 .projectContainer {
