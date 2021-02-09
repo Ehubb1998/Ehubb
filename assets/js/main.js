@@ -1,42 +1,13 @@
-// let nodemailer = require('nodemailer');
+const aDiv = document.getElementById("a-project1");
 
-// const signUpForm = document.getElementById("contactForm");
-// const name = document.getElementById("nameInput").value;
-// const email = document.getElementById("emailInput").value;
-// const message = document.getElementById("messageInput").value;
-// let button = document.getElementById("submitButton").value;
-
-// signUpForm.addEventListener("submit", (e) => {
-// 	e.preventDefault();
-// 	let transporter = nodemailer.createTransport({
-// 		service: 'gmail',
-// 		auth: {
-// 			user: process.env.GMAIL_APP_EMAIL,
-// 			pass: process.env.GMAIL_APP_PASSWORD
-// 		}
-// 	});
-// 	console.log("inside of event");
-// 	debugger;
-
-// 	let mailOptions = {
-// 		from: email,
-// 		to: process.env.GMAIL_APP_EMAIL,
-// 		subject: `${name} wants to contact you!`,
-// 		text: message
-// 	};
-
-// 	transporter.sendMail(mailOptions, function (error, info) {
-// 		console.log("inside of send mail function");
-// 		debugger;
-// 		if (error) {
-// 			console.log(error);
-// 		} else {
-// 			console.log('Email sent: ' + info.response);
-// 			button = "Message Sent!";
-// 		}
-// 	});
-// 	e.preventDefault();
-// });
+aDiv.addEventListener("mouseenter", () => {
+	const backDrop = document.querySelector(".backDrop");
+	backDrop.style.display = "flex"
+});
+aDiv.addEventListener("mouseleave", () => {
+	const backDrop = document.querySelector(".backDrop");
+	backDrop.style.display = "none"
+});
 
 /*
 	Overflow by HTML5 UP

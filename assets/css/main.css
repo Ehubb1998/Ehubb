@@ -133,18 +133,14 @@ body {
 }
 
 .backDrop {
-	visibility: hidden;
-	height: 100%;
-	width: 100%;
-	position: absolute;
-}
-.backDrop:hover {
-	visibility:visible;
-	display: flex;
+	display: none;
 	justify-content: center;
 	background-color: black;
 	opacity: 0.5;
 	z-index: 4;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 .backDrop__text {
