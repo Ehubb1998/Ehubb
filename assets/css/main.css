@@ -132,12 +132,10 @@ body {
 	padding-bottom: 0.5em;
 }
 
-.backDrop__container {
-	display: inline-block;
-}
-
 .backDrop {
-	display: none;
+	display: hidden;
+	height: 100%;
+	width: 100%;
 }
 .backDrop:hover {
 	display: flex;
