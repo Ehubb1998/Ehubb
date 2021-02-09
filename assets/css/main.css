@@ -105,6 +105,18 @@ body {
 	margin-right: 5px;
 }
 
+.profession__container {
+	display: flex;
+	justify-content: center;
+}
+
+.resume__button {
+	padding: 0em 0em 0em 0em;
+	padding-left: 0.35em;
+	padding-right: 0.35em;
+	font-weight: 100;
+}
+
 mark {
 	background-color: transparent;
 	color: inherit;
