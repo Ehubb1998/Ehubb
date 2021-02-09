@@ -154,17 +154,6 @@ body {
 	cursor: pointer;
 }
 
-.backDrop__text-special {
-	color: white;
-	font-weight: 500;
-	border: 2px solid white;
-	padding: 0.4em;
-	width: fit-content;
-	height: fit-content;
-	margin-top: 31%;
-	cursor: pointer;
-}
-
 .projectContainer {
 	border-radius: 5%;
 }
