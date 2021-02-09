@@ -86,7 +86,7 @@ body {
 	justify-content: flex-start;
 }
 
-.profile__pic {
+#profile__pic {
 	overflow: hidden;
 	border-radius: 50%;
 	box-sizing: border-box;
