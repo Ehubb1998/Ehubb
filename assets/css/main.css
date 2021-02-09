@@ -133,13 +133,18 @@ body {
 }
 
 .backDrop {
+	visibility: hidden;
+	height: 100%;
+	width: 100%;
+}
+.backDrop:hover {
+	visibility:visible;
+	position: absolute;
 	display: flex;
 	justify-content: center;
 	background-color: black;
 	opacity: 0.5;
 	z-index: 4;
-	height: 100%;
-	width: 100%;
 }
 
 .backDrop__text {
@@ -148,6 +153,7 @@ body {
 	border: 2px solid white;
 	padding: 0.4em;
 	width: fit-content;
+	cursor: pointer;
 }
 
 .projectContainer {
