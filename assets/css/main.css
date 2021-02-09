@@ -136,10 +136,10 @@ body {
 	visibility: hidden;
 	height: 100%;
 	width: 100%;
+	position: absolute;
 }
 .backDrop:hover {
 	visibility:visible;
-	position: absolute;
 	display: flex;
 	justify-content: center;
 	background-color: black;
