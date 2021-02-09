@@ -124,6 +124,14 @@ body {
 	background-color: black;
 }
 
+#resume__button-top {
+	padding: 0em 0em 0em 0em;
+	padding-left: 0.35em;
+	padding-right: 0.35em;
+	font-weight: 100;
+	/* border: 2px solid black; */
+}
+
 #footer__contactInfo {
 	margin-bottom: 1em;
 }
