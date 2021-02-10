@@ -224,7 +224,11 @@ body {
 	display: flex;
 	justify-content: flex-end;
 	width: 100%;
-	height: 1em;
+	height: 3em;
+}
+
+.upButton > a {
+	text-decoration: none;
 }
 
 .upButton__div {
