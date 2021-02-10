@@ -56,6 +56,12 @@ body {
 }
 
 /* My Styling */
+.technologiesUsed__div {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	height: 1.3em;
+}
 
 .bio__divContainer {
 	display: flex;
