@@ -132,6 +132,10 @@ body {
 	/* border: 2px solid black; */
 }
 
+#contactMe__button {
+	margin-right: 1em;
+}
+
 #footer__contactInfo {
 	margin-bottom: 1em;
 }
