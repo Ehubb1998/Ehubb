@@ -227,13 +227,13 @@ body {
 	height: 3em;
 }
 
-.upButton > a {
-	text-decoration: none;
-}
-
 .upButton__div {
 	width: 10%;
 	height: 100%;
+}
+
+.upButton__div > a {
+	text-decoration: none;
 }
 
 .arrowUp {
