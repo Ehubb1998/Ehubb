@@ -234,6 +234,7 @@ body {
 
 .upButton__div > a {
 	text-decoration: none;
+	border-bottom: 0px;
 }
 
 .arrowUp {
