@@ -57,10 +57,14 @@ body {
 
 /* My Styling */
 .technologiesUsed__div {
-	display: flex;
+	background-color: black;
+	color: white;
+	padding: 1em;
+	border-radius: 3%;
+	/* display: flex;
 	justify-content: flex-start;
 	width: 100%;
-	height: 1.3em;
+	height: 1.3em; */
 }
 
 .bio__divContainer {
