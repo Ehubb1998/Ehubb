@@ -193,6 +193,27 @@ body {
 	max-height: 100%;
 }
 
+#row1 {
+	width: 36em;
+	margin-left: 4.5em;
+	display: flex;
+	justify-content: space-between;
+}
+#row2 {
+	width: 36em;
+	margin-left: 4.5em;
+	margin-top: 2em;
+	display: flex;
+	justify-content: space-between;
+}
+#row3 {
+	width: 36em;
+	margin-left: 4.5em;
+	margin-top: 2em;
+	display: flex;
+	justify-content: space-between;
+}
+
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -440,7 +461,8 @@ input, select, textarea {
 		}
 
 		.row > .col-3 {
-			width: 25%;
+			/* width: 25%; */
+			width: 19%;
 		}
 
 		.row > .off-3 {
@@ -2077,7 +2099,7 @@ input, select, textarea {
 				.box.style2 .inner .image {
 					position: relative;
 					z-index: 1;
-					padding: 20px;
+					padding: 10px;
 				}
 
 		.box.style3 {
